@@ -1,0 +1,14 @@
+name: TribeCosmetics
+version: BETA-1.0
+main: me.nowaha.tribecosmetics.TribeCosmetics
+api-version: 1.13
+authors: [Nowaha]
+description: Cosmetics for TribeWars
+website: www.noahverkaik.com
+depend:
+  - PlaceholderAPI
+commands:
+  namecolor:
+  trail:
+  #glow:
+  cosmetics:

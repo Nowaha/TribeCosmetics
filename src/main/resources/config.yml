@@ -1,0 +1,52 @@
+glows:
+  red:
+    color: RED
+  blue:
+    color: BLUE
+
+trails:
+  red:
+    type: REDSTONE
+    amount: 1
+    size: 2 #Only REDSTONE can be sized.
+    color: #Only REDSTONE can be colored.
+      r: 255
+      g: 0
+      b: 0
+  redblue:
+    multiple: true
+    type:
+      REDSTONE:
+        amount: 1
+        size: 2
+        color:
+          r: 255
+          g: 0
+          b: 0
+      REDSTONE_: # For multiples, add a _ to the second. For triples, add __ to the third, etc.
+        amount: 1
+        size: 2
+        color:
+          r: 0
+          g: 0
+          b: 255
+
+namecolors:
+  namecolor1:
+    type: "single"
+    colors: "a"
+  namecolor2:
+    type: "pattern"
+    colors: "a4"
+  namecolor3:
+    type: "animatedsingle"
+    colors:
+      0: "a"
+      1: "b"
+      2: "c"
+  namecolor4:
+    type: "animatedpattern"
+    colors:
+      0: "a2"
+      1: "b1"
+      2: "c4"
